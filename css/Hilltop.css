@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #A7FA15;
+}
+.wrap{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.clearflix{
+    clear: both;
+    content: "";
+    display: table;
+}
+.main-header{
+    width: 100%;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+    padding-top: 13px;
+    padding-left: 10px;
+}
+.right ul li{
+    display: inline-block;
+    padding: 10px 15px 5px 15px;
+    font-size: 17px;
+    font-family: 'Montserrat';
+}
+.right a{
+    color: #000;
+    text-decoration: none;
+}
+.right a:hover{
+    color: #ffffff;
+    text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #e4e3e3;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+}
+.banner-content{
+    position: absolute;
+    transform: translate(83%, -197%);
+    font-size: 33px;
+    font-family: 'Montserrat';
+    color: #fff;
+    text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #ffffff;
+}
+.card-section{
+    margin: 30px 0;
+}
+.row{
+    width: 100%;
+}
+.column{
+    width: 23%;
+    float: left;
+    text-align: center;
+    background-color: #c4fb6d;
+    margin: 11px;
+}
+.column img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 50px;
+}
+.image-border{
+    border-top: 5px solid white;
+}
+h2{
+    padding-top: 30px;
+    font-family: Montserrat;
+    font-weight: 900;
+}
+.card-para{
+    padding: 30px;
+    font-family: 'Montserrat';
+}
+.extra{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.section-title{
+    text-align: center;
+}
+.section-heading{
+    padding-top: 96px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.section-para{
+    padding-bottom: 20px;
+    font-family: 'Montserrat';
+}
+.section-column{
+    width: 23%;
+    float: left;
+    margin: 11px;
+}
+.img-section-trending{
+    width: 100%;
+    border-radius: 5%;
+}
+.image-heading{
+    font-family: Merriweather;
+    padding: 10px 0;
+}
+.image-content{
+font-family: Montserrat;
+}
+#property{
+    background-color: #A7FA15;
+}
+.description{
+    text-align: center;
+}
+.property-heading{
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.property-para{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+.properti-row{
+    width: 100%;
+}
+.property-column{
+    width: 31.33%;
+    float: left;
+    margin: 11px;
+}
+.property-image{
+    width: 100%;
+    border-radius: 10px;
+}
+h3 {padding-top: 10px;
+    font-size: 20px;
+    font-family: Merriweather;
+}
+.property-row-para{
+    text-align: left;
+    padding-top: 10px;
+    font-size: 17px;
+    font-family: Montserrat;
+}
+.our-company{
+    margin-bottom: 90px;
+}
+.company-description{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.company-description-para{
+    padding-top: 10px;
+    font-size: 17px;
+    font-family: Montserrat;
+}
+.our-company-row{
+    width: 100%;
+}
+.our-company-column{
+    width: 48%;
+    float: left;
+    margin: 0 8px;
+}
+.about-text{
+    line-height: 1.5;
+    font-family: Montserrat;
+    font-size: 15px;
+}
+.list{
+    margin-top: 15px;
+    padding-left: 0;
+}
+.list li{
+    list-style: none;
+    margin-top: 10px;
+}
+.arrow-point{
+    float: left;
+    height: 20px;
+}
+.our-company-image{
+    margin-top: 20px;
+    height: 296px;
+}
+.footer-background{
+    background-color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.row-footer{
+    width: 100%;
+}
+.column-footer{
+    width: 23%;
+    float: left;
+    margin: 11px;
+}
+h5{
+    font-family: Montserrat;
+    color: #c4fb6d;
+    text-shadow: 0 0 0.8em #c4fb6d, 0 0 0.6em #bac964;
+}
+.company-address{
+    font-family: Merriweather;
+    font-size: 12px;
+    line-height: 3;
+    color: #ffffff;
+}
+.company-phone{
+    font-family: Merriweather;
+    font-size: 12px;
+    line-height: 3;
+    color: #ffffff;
+}
+.footer-list{
+    list-style: none;
+    padding: 0px;
+    line-height: 1.5;
+}
+.list-item{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer-links{
+    text-decoration: none;
+    font-family: Montserrat;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+li a:hover{
+    color: #ffffff;
+    text-shadow: 0 0 0.0em #ffffff, 0 0 0.0em #e4e3e3;
+}
+.map{
+    padding-top: 10%;
+}
+.location{
+    color: #605f5b;
+    padding-left: 1%;
+    margin: 0 auto;
+}
